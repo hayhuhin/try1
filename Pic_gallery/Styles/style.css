@@ -88,18 +88,37 @@ body {
 }
 /*the images togheter*/
 .images {
-  margin: 40px;
+  margin: 40px 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 10px;
 }
 .img {
   flex: 0 0 200px;
-  border: 2px solid rgb(173, 168, 168);
+  border: 2px solid rgb(196, 193, 193);
   /*font-style: 100%;*/
 }
-
+.dot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 15px;
+  width: 15px;
+  background-color: #a9a9af;
+  border-radius: 50%;
+  
+}
+.dot:first-child{
+  background-color: #707074;
+}
+.dots {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 3px;
+padding-bottom: 15px;
+}
 /*arrows*/
 .arrows a {
   text-decoration: none;
