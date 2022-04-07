@@ -9,7 +9,7 @@
 
 article {
   background-color: #f7f7f7;
-  height: 3000px;
+  height: 2650px;
 }
 body {
   margin: 0px;
@@ -50,6 +50,9 @@ body {
   padding: 20px;
   text-decoration: none;
 }
+.ser:first-child{
+  margin-right: 60px;
+}
 .main-menu {
   /*flexbox*/
   display: flex;
@@ -69,9 +72,15 @@ body {
   display: flex;
   justify-items: flex-end;
   /*design*/
+  color: #707074;
   font-family: sans-serif;
   margin-right: 30px;
   font-size: 14px;
+  
+}
+.acc a{
+text-decoration: none;
+color: #f7f7f7;
 }
 .first_par {
   font-size: 16px;
@@ -86,6 +95,7 @@ body {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
+
 /*the images togheter*/
 .images {
   margin: 40px 50px;
@@ -148,14 +158,33 @@ padding-bottom: 15px;
 .space {
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
+  justify-content:space-between;
+  background-color: rgb(52, 74, 105);
+  padding-bottom: 60px;
+  padding-top: 40px;
+  gap: 10px;
+}
+.about-me{
   background-color: rgb(52, 74, 105);
 }
-/*string:"thats my working space*/
+.space p{
+  margin-left: 300px ;
+  margin-right: 300px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.read-more {
+  text-decoration: none;
+  text-decoration-color: #111;
+  color: #111;
+}
+/*string:"about me*/
 .working-space {
   font-size: 50px;
   margin-left: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 50px;
+
 }
 .office-image {
   border: solid #111;
@@ -169,7 +198,8 @@ padding-bottom: 15px;
 .pic {
   display: flex;
   justify-items: center;
-  width: 20%;
+  height: 360px;
+  width: 280px;
   margin: 10px;
   padding: 20px;
   cursor: pointer;
@@ -180,32 +210,113 @@ padding-bottom: 15px;
   gap: 395px;
   font-size: 35px;
   margin-top: -30px;
+  
 }
+
 .img-p :first-child {
   padding-left: 30px;
   cursor: pointer;
 }
 .img-p :nth-child(2) {
-  margin-left: -125px;
+  margin-left: -225px;
   cursor: pointer;
 }
 .img-p :nth-child(3) {
-  margin-left: -110px;
+  margin-left: -190px;
   cursor: pointer;
 }
 .img-p :nth-child(4) {
-  margin-left: -130px;
+  margin-left: -230px;
   cursor: pointer;
 }
 .art-works {
   padding-top: 100px;
   padding-bottom: 250px;
   background-color: rgb(181, 190, 203);
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .works-p {
   font-size: 50px;
   margin-top: 50px;
   margin-left: 50px;
-  background-color: red;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.main_bug{
+
+}
+.list-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  border: 5px solid;
+  height: 300px;
+  width: 300px;
+}
+.list2{
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  align-self: flex-end;
+}
+.yas {
+  background-image: url(/Users/valerilevinson/Desktop/try1/Pic_gallery/Images/forest.png);
+}
+footer{
+  background-color:#cc9c34;
+  padding-bottom: 300px;
+}
+.contact {
+  font-size: 50px;
+  font-family: sans-serif;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.footer-content {
+  font-weight: bold;
+  font-size: 22px;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  gap: 20px;
+}
+.empty{
+  border: solid #f7f7f7;
+  background-color: #f7f7f7;
+  width: 400px;
+  padding-top:20px;
+  font-size: 32px;
+}
+.string{
+  margin-bottom: -20px;
+}
+.send{
+  align-self: center;
+  border:3px solid #f7f7f7;
+  padding: 15px 40px;
+  color: #111;
+  background-color: white;
+}
+.working-art{
+  display: flex;
+  justify-content: flex-start;
+  gap: 150px;
+
+}
+.working-p {
+  font-size: 50px;
+}
+.working-art p{
+  text-align: start;
+  font-size: 18px;
+  margin-top: 100px;
+}
+.whole-space{
+  background-color: #a9a9af;
+  margin-bottom: -42px;
 }
